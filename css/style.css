@@ -94,6 +94,37 @@ li{
 .col img{
     width: 100%;
 }
+.banner{
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+}
+.banner.content_50::before{
+    content: "-50%";
+}
+.banner.content_30::before{
+    content: "-30%";
+}
+.banner::before{
+    content: "";
+    font-size: 11px;
+    padding: 3px 5px;
+    margin-right: 2px;
+    line-height: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+}
+.banner.green::after{
+    content: "Sostenibilità";
+    font-size: 11px;
+    padding: 3px 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: green;
+}
+
 .heart_box{
     position: absolute;
     top: 8px;
