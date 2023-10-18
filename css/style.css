@@ -6,16 +6,22 @@
 }
 /* INIZIO REGOLE GENERALI */
 header{
+    position: fixed;
+    width: 100%;
     background-color: #ff6900; 
     height: 60px;
     display: flex;
     justify-content: center;
+    z-index: 500;
 }
 nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+main{
+    padding-top: 80px;
 }
 
 /* FINE REGOLE GENERALI */
