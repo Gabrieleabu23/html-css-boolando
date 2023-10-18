@@ -3,33 +3,47 @@
     margin: 0;
     padding: 0;
 }
+/* INIZIO REGOLE GENERALI */
 header{
     background-color: #ff6900; 
-}
-nav{
-
     height: 60px;
     display: flex;
     justify-content: center;
 }
-.container_nav{
+nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* FINE REGOLE GENERALI */
+
+
+/* INIZIO PARTE HEADER */
 .links{
     width: 25%;
 }
 .links ul{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: flex-start;
 }
-.links li{
+li{
     list-style: none;
+    margin-right: 10px;
+    color:white
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 150px;
 }
 .shop_contacts{
     width: 25%;
+    display: flex;
+    justify-content: flex-end;
 }
+
+/* FINE PARTE HEADER */
