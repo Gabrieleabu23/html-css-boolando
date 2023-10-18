@@ -69,6 +69,7 @@ li{
 
 /* INIZIO PARTE MAIN */
 .dist_row{
+    margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -106,7 +107,6 @@ li{
     content: "-30%";
 }
 .banner::before{
-    content: "";
     font-size: 11px;
     padding: 3px 5px;
     margin-right: 2px;
@@ -118,7 +118,7 @@ li{
 .banner.green::after{
     content: "Sostenibilità";
     font-size: 11px;
-    padding: 3px 10px;
+    padding: 3px 8px;
     line-height: 20px;
     color: white;
     font-weight: 600;
