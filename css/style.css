@@ -4,22 +4,32 @@
     padding: 0;
 }
 header{
-    background-color: #ff6900;
+    background-color: #ff6900; 
 }
 nav{
-    display: flex;
-}
-.nav_links {
-    width: 100%;
-}
-.nav_links ul{
+
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-li{
+.container_nav{
     width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.links{
+    width: 25%;
+}
+.links ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.links li{
+    list-style: none;
+}
+.shop_contacts{
+    width: 25%;
 }
