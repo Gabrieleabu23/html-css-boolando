@@ -104,6 +104,9 @@ li{
 .col img{
     width: 100%;
 }
+#secondary_img{
+    display: none;
+}
 .banner{
     position: absolute;
     bottom: 70px;
@@ -147,6 +150,9 @@ li{
     content: "\2665";
     color: black;
     font-size: 22px;
+}
+.heart_box:hover::before{
+    color: red;
 }
 .text_under_img {
     display: flex;
