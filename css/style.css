@@ -150,9 +150,9 @@ li{
     font-size: 22px;
 }
 .heart_box:hover::before{
-    content: "\2665";
     color: red;
 }
+
 .text_under_img {
     display: flex;
     flex-direction: column;
