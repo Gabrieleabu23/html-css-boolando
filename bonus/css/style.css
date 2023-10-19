@@ -101,12 +101,23 @@ li{
     height: 400px;
     border: 1px solid black; */
 }
-.col img{
+.container_image{
     width: 100%;
 }
-#secondary_img{
+img.main_img{
+    width: 100%;
+}
+img.secondary_img{
+    width: 100%;
     display: none;
 }
+.container_image:hover .main_img{
+    display: none;
+}
+.container_image:hover .secondary_img{
+    display: block;
+}
+
 .banner{
     position: absolute;
     bottom: 70px;
